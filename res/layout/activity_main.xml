@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/dns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNS 1" />
+
+        <EditText
+            android:id="@+id/edns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/dns2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNS 2" />
+
+        <EditText
+            android:id="@+id/edns2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change DNS" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check DNS" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+    
+    <TextView
+        android:id="@+id/tcheck"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n Dns1 : \n Dns2: " />
+    
+    
+
+</LinearLayout>
