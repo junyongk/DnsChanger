@@ -20,7 +20,7 @@ import com.moon.dns.changer.DnsChanger;
 import com.moon.dns.checker.DnsChecker;
 
 public class MainActivity extends Activity implements OnClickListener {
-3
+4
 	private EditText edns1;
 	private EditText edns2;
 	hmac=123;
