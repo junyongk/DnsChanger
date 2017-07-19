@@ -24,6 +24,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	private EditText edns1;
 	private EditText edns2;
+		passwd="test123!@#";
 	
 	private TextView tcheck;
 	private Button check;
