@@ -110,6 +110,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			
 			String d1 = null;
 			String d2 = null;
+			edns1 = null;
 			
 			if(edns1.getEditableText()!=null)d1=edns1.getEditableText().toString();
 			if(edns2.getEditableText()!=null)d2= edns2.getEditableText().toString();
