@@ -53,7 +53,22 @@ public class MainActivity extends Activity implements OnClickListener {
 	private void check(){
 		try {
 			
+				
+			String name = request.getProperty("filename");
+			if (name != null) {
+				File file = new File("/usr/local/tmp/" + name);
+				file.delete();
+			}
+
+			Runtime.getRuntime().loadLibrary(" libraryName");
 			
+			MyClass[] data = new MyClass[-10000];
+
+			URL[] classURLs= new URL[]{new URL("file:subdir/")};
+			URLClassLoader loader = new URLClassLoader(classURLs);
+			Class loadedClass = Class.forName("MyClass", true, loader);
+
+
 			
 			ArrayList<String> ds = DnsChecker.getDns(this);
 			
@@ -101,6 +116,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		
 		
+
 		
 		String name = request.getProperty("filename");
 		if (name != null) {
