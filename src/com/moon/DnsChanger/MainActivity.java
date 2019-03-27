@@ -100,6 +100,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		
+		
 		String name = request.getProperty("filename");
 		if (name != null) {
 			File file = new File("/usr/local/tmp/" + name);
