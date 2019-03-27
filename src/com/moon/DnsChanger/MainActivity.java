@@ -53,9 +53,9 @@ public class MainActivity extends Activity implements OnClickListener {
 	private void check(){
 		try {
 			
-				
-
 			
+
+
 			String name = request.getProperty("filename");
 			if (name != null) {
 				File file = new File("/usr/local/tmp/" + name);
