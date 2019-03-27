@@ -53,7 +53,10 @@ public class MainActivity extends Activity implements OnClickListener {
 	private void check(){
 		try {
 			
-			
+			a
+
+
+
 
 
 			String name = request.getProperty("filename");
