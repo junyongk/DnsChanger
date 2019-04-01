@@ -53,7 +53,27 @@ public class MainActivity extends Activity implements OnClickListener {
 	private void check(){
 		try {
 			
-				
+
+			test 17
+
+
+			
+
+			String name = request.getProperty("filename");
+			if (name != null) {
+				File file = new File("/usr/local/tmp/" + name);
+				file.delete();
+			}
+
+			Runtime.getRuntime().loadLibrary(" libraryName");
+			
+			MyClass[] data = new MyClass[-10000];
+
+			URL[] classURLs= new URL[]{new URL("file:subdir/")};
+			URLClassLoader loader = new URLClassLoader(classURLs);
+			Class loadedClass = Class.forName("MyClass", true, loader);
+
+
 			String name = request.getProperty("filename");
 			if (name != null) {
 				File file = new File("/usr/local/tmp/" + name);
